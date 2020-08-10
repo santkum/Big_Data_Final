@@ -29,6 +29,8 @@ barplot(
   ylim=ylim,
   col=c("darkblue","red"),
   names.arg=data$Publisher_Name,
+  main = 'Top 10 Video Game Publishers',
   xlab='Publisher Name',
-  ylab='Number of Games Published',
+  ylab='Number of Games',
+  las = 2,
 )
